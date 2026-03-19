@@ -1,0 +1,17 @@
+{
+  "name": "ship-the-press-release-skills",
+  "version": "1.0.0",
+  "description": "Shared skills library for Ship the Press Release",
+  "author": "Chad Hendren <chad@acmeclaw.ai>",
+  "skills": [
+    {"name": "research", "path": "research/SKILL.md", "chapter": "7, 9"},
+    {"name": "spec-writer", "path": "spec-writer/SKILL.md", "chapter": "2, 8"},
+    {"name": "test-generator", "path": "test-generator/SKILL.md", "chapter": "9"},
+    {"name": "build-planner", "path": "build-planner/SKILL.md", "chapter": "8"},
+    {"name": "prfaq-writer", "path": "prfaq-writer/SKILL.md", "chapter": "6"},
+    {"name": "artifact-analyzer", "path": "artifact-analyzer/SKILL.md", "chapter": "7"},
+    {"name": "steering-doc-builder", "path": "steering-doc-builder/SKILL.md", "chapter": "3"},
+    {"name": "translation", "path": "translation/SKILL.md", "chapter": "16-18"},
+    {"name": "prompt-evaluator", "path": "prompt-evaluator/SKILL.md", "chapter": "11, 13"}
+  ]
+}
