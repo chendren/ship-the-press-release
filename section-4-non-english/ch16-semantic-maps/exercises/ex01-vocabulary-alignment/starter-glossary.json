@@ -1,0 +1,9 @@
+{
+  "language": "your-language-code",
+  "entries": [
+    {"en": "API", "translations": {}, "doNotTranslate": true},
+    {"en": "function", "translations": {"your-code": "your translation"}, "context": "programming function"},
+    {"en": "variable", "translations": {"your-code": "your translation"}, "context": "programming variable"},
+    {"en": "deploy", "translations": {"your-code": "your translation"}, "context": "software deployment"}
+  ]
+}
