@@ -1,0 +1,19 @@
+{
+  "name": "@acmeclaw/ralph-loop",
+  "version": "1.0.0",
+  "description": "RALPH Loop: Read, Analyze, Layout, Produce, Harmonize — test-driven autonomous build pattern",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "vitest watch"
+  },
+  "author": "Chad Hendren <chad@acmeclaw.ai>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

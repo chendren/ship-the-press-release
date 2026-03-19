@@ -1,0 +1,22 @@
+{
+  "language": "base",
+  "entries": [
+    {"en": "API", "translations": {}, "doNotTranslate": true},
+    {"en": "SDK", "translations": {}, "doNotTranslate": true},
+    {"en": "CLI", "translations": {}, "doNotTranslate": true},
+    {"en": "JSON", "translations": {}, "doNotTranslate": true},
+    {"en": "YAML", "translations": {}, "doNotTranslate": true},
+    {"en": "TypeScript", "translations": {}, "doNotTranslate": true},
+    {"en": "Node.js", "translations": {}, "doNotTranslate": true},
+    {"en": "GitHub", "translations": {}, "doNotTranslate": true},
+    {"en": "OpenClaw", "translations": {}, "doNotTranslate": true},
+    {"en": "AcmeClaw", "translations": {}, "doNotTranslate": true},
+    {"en": "RALPH Loop", "translations": {}, "doNotTranslate": true},
+    {"en": "CLAUDE.md", "translations": {}, "doNotTranslate": true},
+    {"en": "PR/FAQ", "translations": {}, "doNotTranslate": true},
+    {"en": "Working Backwards", "translations": {"zh-CN": "逆向工作法", "ja-JP": "ワーキング・バックワーズ", "es": "Trabajar hacia atrás", "pt-BR": "Trabalhar de trás para frente", "ko-KR": "역방향 작업법"}},
+    {"en": "steering doc", "translations": {"zh-CN": "引导文档", "ja-JP": "ステアリングドキュメント", "es": "documento guía", "pt-BR": "documento guia", "ko-KR": "스티어링 문서"}},
+    {"en": "vibe coding", "translations": {"zh-CN": "感觉编码", "ja-JP": "バイブコーディング", "es": "codificación intuitiva", "pt-BR": "codificação intuitiva", "ko-KR": "바이브 코딩"}},
+    {"en": "specification coding", "translations": {"zh-CN": "规范编码", "ja-JP": "仕様コーディング", "es": "codificación por especificación", "pt-BR": "codificação por especificação", "ko-KR": "사양 코딩"}}
+  ]
+}
