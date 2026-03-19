@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package: [ralph-loop, translation-pipeline]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        working-directory: ${{ matrix.package }}
+        run: npm install
+      - name: Run tests
+        working-directory: ${{ matrix.package }}
+        run: npm test
+
+  validate-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify chapter directories exist
+        run: |
+          for ch in ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 ch11 ch12 ch13 ch14 ch15 ch16 ch17 ch18; do
+            found=$(find . -type d -name "${ch}*" | head -1)
+            if [ -z "$found" ]; then
+              echo "MISSING: ${ch}" && exit 1
+            fi
+          done
+          echo "All 18 chapters present"
+      - name: Verify appendices exist
+        run: |
+          for app in a b c d e f g h i j; do
+            found=$(find ./appendices -type d -name "appendix-${app}*" | head -1)
+            if [ -z "$found" ]; then
+              echo "MISSING: appendix-${app}" && exit 1
+            fi
+          done
+          echo "All 10 appendices present"
+      - name: Verify reference implementations
+        run: |
+          test -f ralph-loop/package.json || (echo "MISSING: ralph-loop" && exit 1)
+          test -f translation-pipeline/package.json || (echo "MISSING: translation-pipeline" && exit 1)
+          test -f skills-library/catalog.json || (echo "MISSING: skills catalog" && exit 1)
+          echo "All reference implementations present"
