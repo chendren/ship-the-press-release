@@ -1,0 +1,20 @@
+{
+  "name": "ship-the-press-release",
+  "version": "1.0.0",
+  "description": "Companion repository for Ship the Press Release by Chad Hendren",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "ralph-loop",
+    "translation-pipeline"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "author": "Chad Hendren <chad@acmeclaw.ai>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
