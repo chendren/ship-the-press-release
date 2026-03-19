@@ -1,0 +1,16 @@
+# Directory Steering Doc Template
+
+> Place in any subdirectory that has specific rules.
+
+## Purpose
+[What this directory contains and why it exists.]
+
+## Rules
+- [Rule 1 — specific to files in this directory]
+- [Rule 2]
+
+## Patterns
+- [Pattern files in this directory should follow]
+
+## Do NOT
+- [Anti-pattern specific to this directory]

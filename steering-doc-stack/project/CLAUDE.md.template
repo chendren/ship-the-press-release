@@ -1,0 +1,44 @@
+# Project Steering Doc Template
+
+> Place at ./CLAUDE.md in your project root.
+
+## Project Overview
+- **Name**: [PROJECT NAME]
+- **Purpose**: [One sentence — what does this project do?]
+- **Stack**: [e.g., "TypeScript, Node.js, PostgreSQL, React"]
+- **Architecture**: [e.g., "Monorepo with API + UI packages"]
+
+## Directory Structure
+```
+[PROJECT]/
+├── src/           # [What's in src]
+├── tests/         # [Testing approach]
+├── scripts/       # [Build/deploy scripts]
+└── docs/          # [Documentation]
+```
+
+## Conventions
+- **Naming**: [e.g., "camelCase for functions, PascalCase for types"]
+- **Files**: [e.g., "One component per file, named after the export"]
+- **Tests**: [e.g., "Co-located with source, *.test.ts suffix"]
+- **Imports**: [e.g., "Absolute paths via tsconfig paths"]
+
+## Key Terminology
+- **[TERM]**: [Definition as used in this project]
+- **[TERM]**: [Definition]
+
+## Build & Run
+```bash
+npm install        # Install dependencies
+npm run dev        # Start dev server
+npm test           # Run tests
+npm run build      # Production build
+```
+
+## Current Focus
+- [What's being built right now — update this regularly]
+
+## Architecture Decisions
+| Decision | Choice | Date | Rationale |
+|----------|--------|------|-----------|
+| [Decision] | [Choice] | [Date] | [Why] |

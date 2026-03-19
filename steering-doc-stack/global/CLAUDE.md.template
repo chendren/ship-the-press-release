@@ -1,0 +1,29 @@
+# Global Steering Doc Template
+
+> Place at ~/.claude/CLAUDE.md — this applies to every project.
+
+## Identity & Context
+- [YOUR ROLE — e.g., "Senior backend engineer at a fintech startup"]
+- [YOUR PLATFORM — e.g., "Mac (Apple Silicon), Linux servers"]
+- [ACTIVE PROJECTS — list 2-3 you work on most]
+
+## Code Style Preferences
+- [LANGUAGE PREFERENCE — e.g., "TypeScript over JavaScript always"]
+- [PARADIGM — e.g., "Functional > OOP for utilities"]
+- [SPECIFIC RULES — e.g., "No regex — use string methods or LLM parsing"]
+- [COMMENT POLICY — e.g., "No comments on obvious code; only comment non-obvious intent"]
+
+## Workflow Preferences
+- [COMMIT STYLE — e.g., "Commit when done, auto-push never"]
+- [PLANNING — e.g., "Use plan mode for anything touching >3 files"]
+- [EFFORT — e.g., "Default medium; bump to high for architecture"]
+
+## Tools Available
+- [LIST MCP SERVERS, CLI tools, databases you use regularly]
+
+## Communication Style
+- [HOW YOU WANT RESPONSES — e.g., "Concise. No preamble. Lead with action."]
+
+## What NOT to Do
+- [ANTI-PATTERNS — e.g., "Never ask 'should I proceed?' — just do it"]
+- [BOUNDARIES — e.g., "Never auto-push to remote"]
