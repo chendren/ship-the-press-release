@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.0",
-    "vitest": "4.1.0"
+    "vitest": "4.1.10"
   },
   "overrides": {
     "postcss": "8.5.25",
@@ -70,6 +70,6 @@
     "vite@5": "5.4.21",
     "vite@6": "6.4.3",
     "vite@7": "7.3.5",
-    "vitest": "4.1.0"
+    "vitest": "4.1.10"
   }
 }
